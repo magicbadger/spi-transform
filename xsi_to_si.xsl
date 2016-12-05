@@ -118,7 +118,7 @@
 		</link>
 	</xsl:template>
 	
-	<xsl:template match="epg:genre">
+	<xsl:template match="repg:genre">
 		<genre>
 			<xsl:attribute name="href">
 				<xsl:value-of select="@href"/>

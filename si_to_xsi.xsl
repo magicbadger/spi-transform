@@ -106,14 +106,14 @@
 	</xsl:template>
 
 	<xsl:template match="spi:genre">
-		<epg:genre>
+		<genre>
 			<xsl:attribute name="href">
 				<xsl:value-of select="@href"/>
 			</xsl:attribute>
 			<epg:name>
 				<xsl:value-of select="."/>
 			</epg:name>
-		</epg:genre>
+		</genre>
 	</xsl:template>
 
 	<xsl:template match="spi:link">
